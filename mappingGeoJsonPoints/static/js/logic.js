@@ -40,3 +40,5 @@ L.geoJSON(sanFranAirport, {
       "Airport Name: " + feature.properties.name + "</h3>");
     }
   }).addTo(map);
+
+  console.log("123")
