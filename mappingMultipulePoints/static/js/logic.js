@@ -1,5 +1,5 @@
 // Create the map object with a center and zoom level.
-var map = L.map('mapid').setView([40.7, -95.5], 5);;
+var map = L.map('mapid').setView([40.7, -95.5], 5);
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
