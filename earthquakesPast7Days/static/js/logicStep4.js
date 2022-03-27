@@ -102,5 +102,3 @@ L.geoJSON(data, {
   .addTo(earthquakes);
   earthquakes.addTo(map);
 });
-
-
